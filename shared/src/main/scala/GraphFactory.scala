@@ -23,9 +23,25 @@ import scalax.collection.GraphPredef._
 //Units of difference
 
 
-  /** Create directed edge from string of csv data.
+  /** Create directed graph from a CSV source with
+  * each line representing a single edge.
   *
-  * @param s String of CSV data.
+  * @param s CSV source data.
+  */
+  def fromCsv(s: String) = {
+    val rows = s.split("\n")
+    val edges = for (r <- rows) yield {
+      edgeFromCsv(r)
+    }
+    Graph(edges)
+  }
+
+  /** Create directed edge from a string of csv data.
+  *
+  * @param s String of CSV data representing a single edge.
+  * It should be composed of 6 columns, sequentially giving
+  * 1) the source for the relation, 2) starting event, 3) chronological relation,
+  * 4) type or system of relation, 5) target event, and 6) number of units difference.
   */
   def edgeFromCsv(s: String): LDiEdge[HistoricalEvent] = {
       val columns = s.split(",")

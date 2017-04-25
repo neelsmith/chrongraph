@@ -1,4 +1,4 @@
-name := "Utilities for working with data from Beazley, ABV and ARV"
+name := "Utilities for working with graphs of chronological relations"
 
 crossScalaVersions := Seq("2.12.2")
 
@@ -12,7 +12,7 @@ lazy val root = project.in(file(".")).
 
 lazy val crossed = crossProject.in(file(".")).
     settings(
-      name := "beazley",
+      name := "chrongraph",
       organization := "edu.holycross.shot",
       version := "0.1.0",
       licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html")),
