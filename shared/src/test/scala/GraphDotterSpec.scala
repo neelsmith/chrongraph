@@ -20,9 +20,12 @@ class GraphDotterSpec extends FlatSpec {
 
 
     val expected = """digraph "Chronological graph" {
+	"label for urn:cite2:chron.event:3" -> "label for urn:cite2:chron.epoch:pm"
 	"label for urn:cite2:chron.event:2" -> "label for urn:cite2:chron.epoch:pm" [color = "#ff0000"]
+	"label for urn:cite2:chron.event:3" -> "label for urn:cite:chron.atticrulers:1"
 }"""
     assert (dot == expected)
+
     }
 
 

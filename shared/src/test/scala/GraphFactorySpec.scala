@@ -29,7 +29,7 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
       val g = GraphFactory.fromCsv(csv)
       g match {
         case cgr: ChronologicalGraph => {
-          assert(cgr.graph.size == 3)
+          assert(cgr.graph.edges.size == 3)
         }
         case _ => fail("Should have created a labelled directed graph")
       }

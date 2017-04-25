@@ -17,14 +17,14 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
 
   "A chronological graph"  should "be buildable from csv source" in {
     val g = GraphFactory.fromCsv(csv)
-    assert(g.graph.size == 3)
+    assert(g.graph.edges.size == 3)
   }
 
 
   it should "find events in a graph" in {
     val evt = HistoricalEvent("urn:cite2:chron.epoch:pm", "label for urn:cite2:chron.epoch:pm")
     val g = GraphFactory.fromCsv(csv)
-    assert(g.graph.size == 3)
+    assert(g.graph.edges.size == 3)
     println(g.findEvt(evt))
   }
 
