@@ -2,9 +2,9 @@ package edu.holycross.shot.chrongraph
 import org.scalatest.FlatSpec
 
 
-class GraphSpec extends FlatSpec {
+class GraphSourceSpec extends FlatSpec {
 
-  "A chronological graph"  should "do something" in  pending
+  "A graph source"  should "create a chronological graph from a CSV file" in  pending
 
 
 

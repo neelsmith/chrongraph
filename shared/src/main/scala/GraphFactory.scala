@@ -22,10 +22,12 @@ import scalax.collection.GraphPredef._
   */
   def fromCsv(s: String) = {
     val rows = s.split("\n")
-    val edges = for (r <- rows) yield {
-      edgeFromCsv(r)
+    val edge1 = edgeFromCsv(rows(0))
+    val g = Graph(edge1)
+    val edges = for (r <- rows.drop(1) if r.split(",").size > 5) yield {
+      g + edgeFromCsv(r)
     }
-    Graph(edges)
+    g
   }
 
   /** Create directed edge from a string of csv data.
@@ -37,18 +39,23 @@ import scalax.collection.GraphPredef._
   */
   def edgeFromCsv(s: String): LDiEdge[HistoricalEvent] = {
       val columns = s.split(",")
+      if (columns.size < 6) {
+        val msg = s"Can't make edge from ${columns.size} columns in " + s
+        println(msg)
+        throw(new Exception(msg))
 
+      } else {
+        val sourceEvent = HistoricalEvent(columns(1), "label for " + columns(0))
+        val targetEvent = HistoricalEvent(columns(4), "label for " + columns(4))
 
-      val sourceEvent = HistoricalEvent(columns(1), "label for " + columns(0))
-      val targetEvent = HistoricalEvent(columns(4), "label for " + columns(4))
+        val src = columns(0)
+        val relation = columns(2)
+        val relationType  = columns(3)
+        val unitsDiff = columns(5).toInt
 
-      val src = columns(0)
-      val relation = columns(2)
-      val relationType  = columns(3)
-      val unitsDiff = columns(5).toInt
-
-      val simpleRelation = SimpleRelation(relationType,unitsDiff,relationType,src)
-      LDiEdge(sourceEvent,targetEvent)(simpleRelation)
+        val simpleRelation = SimpleRelation(relationType,unitsDiff,relationType,src)
+        LDiEdge(sourceEvent,targetEvent)(simpleRelation)
+      }
   }
 
 }
