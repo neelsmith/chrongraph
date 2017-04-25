@@ -13,6 +13,6 @@ import scalax.collection.GraphPredef._
 
 /** A ChronologicalGraph is a directed graph of historical events.
 */
-@JSExport case class ChronologicalGraph(g: Graph[HistoricalEvent,LDiEdge]) { 
+@JSExport case class ChronologicalGraph(graph: Graph[HistoricalEvent,LDiEdge]) { 
 
 }
