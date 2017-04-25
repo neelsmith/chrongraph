@@ -45,7 +45,7 @@ import scalax.collection.GraphPredef._
         throw(new Exception(msg))
 
       } else {
-        val sourceEvent = HistoricalEvent(columns(1), "label for " + columns(0))
+        val sourceEvent = HistoricalEvent(columns(1), "label for " + columns(1))
         val targetEvent = HistoricalEvent(columns(4), "label for " + columns(4))
 
         val src = columns(0)

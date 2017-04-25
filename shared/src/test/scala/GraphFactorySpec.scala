@@ -24,11 +24,13 @@ class GraphFactorySpec extends FlatSpec {
         val csv = """urn:cts:chronepig:chron.pm:1,urn:cite2:chron.event:2,precedes,epoch,urn:cite2:chron.epoch:pm,1318
 urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,precedes,epoch,urn:cite2:chron.epoch:pm,1310
 urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cite:chron.atticrulers:1,0
-  """
+"""
 
       val g = GraphFactory.fromCsv(csv)
       g match {
-        case graph: ChronologicalGraph => assert(true)
+        case cgr: ChronologicalGraph => {
+          assert(cgr.graph.size == 3)
+        }
         case _ => fail("Should have created a labelled directed graph")
       }
     }
