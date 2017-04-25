@@ -15,14 +15,6 @@ import scalax.collection.GraphPredef._
 // Factory for creating Graph structures from text sources.
 @JSExport object GraphFactory {
 
-
-//1. Source of evidence
-// Event to date	Relation
-// Type of related object
-// Related event or chronological object
-//Units of difference
-
-
   /** Create directed graph from a CSV source with
   * each line representing a single edge.
   *
@@ -57,15 +49,6 @@ import scalax.collection.GraphPredef._
 
       val simpleRelation = SimpleRelation(relationType,unitsDiff,relationType,src)
       LDiEdge(sourceEvent,targetEvent)(simpleRelation)
-
-
-
-/*
-Event,Synchronism,Source,Relation,SyncType,SyncedWith,Amount,Label,Source
-urn:cite:chron:event.2,urn:cite:chron:synchronism.2,urn:cts:chronepig:chron.pm:1,precedes,epoch,urn:cite:chron:epoch.pm,1318,Reign of Cecrops in Athens,urn:cts:chronepig:chron.pm:1
-urn:cite:chron:event.3,urn:cite:chron:synchronism.3,urn:cts:chronepig:chron.pm:2,precedes,epoch,urn:cite:chron:epoch.pm,1310,Reign of Deucalion near Parnassus in Lycoria,urn:cts:chronepig:chron.pm:2
-urn:cite:chron:event.3,urn:cite:chron:synchronism.4,urn:cts:chronepig:chron.pm:79,contemporary,eponym,urn:cite:chron:archon.1,0,Reign of Deucalion near Parnassus in Lycoria,urn:cts:chronepig:chron.pm:2
-*/
   }
 
 }
