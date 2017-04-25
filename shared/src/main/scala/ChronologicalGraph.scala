@@ -15,5 +15,7 @@ import scalax.collection.GraphPredef._
 */
 @JSExport case class ChronologicalGraph(graph: Graph[HistoricalEvent,LDiEdge]) {
 
-  def n(evt: HistoricalEvent) = graph get evt
+  def findEvt(evt: HistoricalEvent) = {
+    this.graph get evt
+  }
 }

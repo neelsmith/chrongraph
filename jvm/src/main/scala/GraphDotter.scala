@@ -15,10 +15,10 @@ import scalax.collection.GraphPredef._
 object GraphDotter {
 
 
-/*
   def dotString(cg : ChronologicalGraph, e1: HistoricalEvent , e2 : HistoricalEvent) : String  = {
     val root = new DotRootGraph(true, id = Some(Id("Chronological graph")))
-    val path = (cg.graph.n(e1) shortestPathTo cg.graph.n(e2)).get
+    //def findEvt(evt: HistoricalEvent) = graph get evt
+    val path = (cg.findEvt(e1) shortestPathTo cg.findEvt(e2)).get
     cg.graph.toDot(root, edgeTransformer(root, cg.graph, path, _))
 
   }
@@ -42,5 +42,5 @@ object GraphDotter {
         }
       }
     }
-  } */
+  }
 }
