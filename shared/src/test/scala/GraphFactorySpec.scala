@@ -28,7 +28,7 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
 
       val g = GraphFactory.fromCsv(csv)
       g match {
-        case graph: Graph[HistoricalEvent,LDiEdge] => assert(true)
+        case graph: ChronologicalGraph => assert(true)
         case _ => fail("Should have created a labelled directed graph")
       }
     }

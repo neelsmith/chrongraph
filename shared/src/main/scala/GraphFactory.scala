@@ -20,14 +20,14 @@ import scalax.collection.GraphPredef._
   *
   * @param s CSV source data.
   */
-  def fromCsv(s: String) = {
+  def fromCsv(s: String): ChronologicalGraph = {
     val rows = s.split("\n")
     val edge1 = edgeFromCsv(rows(0))
     val g = Graph(edge1)
     val edges = for (r <- rows.drop(1) if r.split(",").size > 5) yield {
       g + edgeFromCsv(r)
     }
-    g
+    ChronologicalGraph(g)
   }
 
   /** Create directed edge from a string of csv data.

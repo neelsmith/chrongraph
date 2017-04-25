@@ -10,8 +10,9 @@ import scalax.collection.edge.LDiEdge
 import scalax.collection.GraphPredef._
 
 
-@JSExport case class ChronologicalGraph(g: String) { //(graph: Graph) {
 
-  //graph: Graph[Array[LDiEdge[HistoricalEvent]],Nothing] ){
+/** A ChronologicalGraph is a directed graph of historical events.
+*/
+@JSExport case class ChronologicalGraph(g: Graph[HistoricalEvent,LDiEdge]) { 
 
 }
