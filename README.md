@@ -1,6 +1,6 @@
 # `chrongraph`
 
-`chrongraph` is a cross-compiled library for working with graphs of chronological relations.
+`chrongraph` is a cross-compiled library for working with graphs of chronological relations.  It requires scala 2.12.1.
 
 
 
