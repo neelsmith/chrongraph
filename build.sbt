@@ -1,6 +1,6 @@
 name := "Utilities for working with graphs of chronological relations"
 
-crossScalaVersions := Seq("2.12.2")
+crossScalaVersions := Seq("2.12.1")
 
 lazy val root = project.in(file(".")).
     aggregate(crossedJVM, crossedJS).
