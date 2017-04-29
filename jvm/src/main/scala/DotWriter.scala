@@ -12,4 +12,12 @@ object DotWriter {
     val cmd =  s"dot -Tpng ${fName}.dot -o ${fName}.png"
     cmd.!
   }
+
+  def writeDot(cg : ChronologicalGraph, fName: String)  = {
+    new PrintWriter(fName + ".dot"){write(GraphDotter.dotString(cg)); close;}
+
+    val cmd =  s"dot -Tpng ${fName}.dot -o ${fName}.png"
+    cmd.!
+  }
+
 }
