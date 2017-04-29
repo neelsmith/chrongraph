@@ -14,12 +14,37 @@ import scalax.collection.GraphPredef._
 
 object GraphDotter {
 
+  def dotString(cg : ChronologicalGraph) : String  = {
+    val root = new DotRootGraph(true, id = Some(Id("Chronological graph")))
+    cg.graph.toDot(root, simpleTransformer(root, cg.graph, _))
+  }
+
 
   def dotString(cg : ChronologicalGraph, e1: HistoricalEvent , e2 : HistoricalEvent) : String  = {
     val root = new DotRootGraph(true, id = Some(Id("Chronological graph")))
-    val path = (cg.findEvt(e1) shortestPathTo cg.findEvt(e2)).get
-    cg.graph.toDot(root, edgeTransformer(root, cg.graph, path, _))
+    val pathOpt =  (cg.findEvt(e1) shortestPathTo cg.findEvt(e2))
+    pathOpt match {
+      case None => {
+        println(s"Failed to find path from ${e1} to ${e2} in ${cg}")
+          ""
+      }
+      case _ =>  {
+        val path = pathOpt.get
+        cg.graph.toDot(root, edgeTransformer(root, cg.graph, path, _))
+      }
+    }
+  }
 
+  def simpleTransformer(
+    root: DotRootGraph,
+    graph: Graph[HistoricalEvent, LDiEdge],
+    innerEdge: Graph[HistoricalEvent,LDiEdge]#EdgeT) :
+    Option[(DotGraph,DotEdgeStmt)] = {
+    innerEdge match {
+      case graph.EdgeT(source, target) => {
+        Some((root, DotEdgeStmt(source.toString, target.toString)))
+      }
+    }
   }
 
   def edgeTransformer(

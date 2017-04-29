@@ -40,10 +40,10 @@ import scalax.collection.GraphPredef._
   * 1) the source for the relation, 2) starting event, 3) chronological relation,
   * 4) type or system of relation, 5) target event, and 6) number of units difference.
   */
-  def edgeFromCsv(s: String): LDiEdge[HistoricalEvent] = {
-      val columns = s.split(",")
+  def edgeFromCsv(csv: String): LDiEdge[HistoricalEvent] = {
+      val columns = csv.split(",")
       if (columns.size < 6) {
-        val msg = s"Can't make edge from ${columns.size} columns in " + s
+        val msg = s"Can't make edge from ${columns.size} columns in " + csv
         println(msg)
         throw(new Exception(msg))
 
@@ -51,10 +51,10 @@ import scalax.collection.GraphPredef._
         val sourceEvent = HistoricalEvent(columns(1), "label for " + columns(1))
         val targetEvent = HistoricalEvent(columns(4), "label for " + columns(4))
 
-        val src = columns(0)
-        val relation = columns(2)
-        val relationType  = columns(3)
-        val unitsDiff = columns(5).toInt
+        val src = columns(0).trim
+        val relation = columns(2).trim
+        val relationType  = columns(3).trim
+        val unitsDiff = columns(5).trim.toInt
 
         val simpleRelation = SimpleRelation(relationType,unitsDiff,relationType,src)
         LDiEdge(sourceEvent,targetEvent)(simpleRelation)
