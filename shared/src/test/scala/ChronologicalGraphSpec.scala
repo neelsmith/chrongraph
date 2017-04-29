@@ -25,7 +25,7 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
     val evt = HistoricalEvent("urn:cite2:chron.epoch:pm", "label for urn:cite2:chron.epoch:pm")
     val g = GraphFactory.fromCsv(csv)
     assert(g.graph.edges.size == 3)
-    println(g.findEvt(evt))
+    assert(g.findEvt(evt).toString == "label for urn:cite2:chron.epoch:pm")
   }
 
 }

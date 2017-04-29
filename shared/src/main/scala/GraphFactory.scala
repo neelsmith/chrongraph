@@ -23,13 +23,11 @@ import scalax.collection.GraphPredef._
   def fromCsv(s: String): ChronologicalGraph = {
 
     val rows = s.split("\n")
-    println("Making graph from " + rows.size + " records")
     val edge1 = edgeFromCsv(rows(0))
     var g = scalax.collection.mutable.Graph(edge1)
     val edges = for (r <- rows.drop(1) if r.split(",").size > 5) yield {
       g = g + edgeFromCsv(r)
     }
-    println("Make chronological graph from " + g.edges)
     ChronologicalGraph(g)
   }
 
