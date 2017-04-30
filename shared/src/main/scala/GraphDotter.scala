@@ -53,6 +53,7 @@ object GraphDotter {
     path: Graph[HistoricalEvent, LDiEdge]#Path,
     innerEdge: Graph[HistoricalEvent,LDiEdge]#EdgeT) :
     Option[(DotGraph,DotEdgeStmt)] = {
+      val  red = "#ff0000"
     innerEdge match {
       case graph.EdgeT(source, target) => {
         if (path.edges.exists(e => e.equals(innerEdge))) {
@@ -60,7 +61,7 @@ object GraphDotter {
             DotEdgeStmt(
               source.toString,
               target.toString,
-              List(DotAttr("color", "#ff0000")))))
+              List(DotAttr("color",red)))))
         }else {
           Some((root, DotEdgeStmt(source.toString, target.toString)))
         }

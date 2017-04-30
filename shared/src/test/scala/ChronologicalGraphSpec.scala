@@ -28,4 +28,14 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
     assert(g.findEvt(evt).toString == "label for urn:cite2:chron.epoch:pm")
   }
 
+  it should "have HistoricalEvent objects for nodes" in {
+     val g = GraphFactory.fromCsv(csv)
+     for (n <- g.graph.nodes) {
+       n match {
+         case evt: g.graph.NodeT => assert(true)
+         case nonevt => fail("Node should have been a historical event: " + nonevt)
+       }
+     }
+  }
+
 }
