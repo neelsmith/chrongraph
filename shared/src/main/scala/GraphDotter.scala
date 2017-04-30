@@ -19,6 +19,9 @@ object GraphDotter {
     cg.graph.toDot(root, simpleTransformer(root, cg.graph, _))
   }
 
+  def dotString(cg : ChronologicalGraph, id1: String , id2 : String) : String  = {
+    dotString(cg,HistoricalEvent(id1,id1), HistoricalEvent(id2,id2))
+  }
 
   def dotString(cg : ChronologicalGraph, e1: HistoricalEvent , e2 : HistoricalEvent) : String  = {
     val root = new DotRootGraph(true, id = Some(Id("Chronological graph")))
