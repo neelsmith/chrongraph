@@ -15,7 +15,23 @@ import scalax.collection.GraphPredef._
 */
 @JSExport case class ChronologicalGraph(graph: Graph[HistoricalEvent,LDiEdge]) {
 
+
+  /** Get node within graph matching a historical event.
+  *
+  * @param evt Event to match.
+  */
   def findEvt(evt: HistoricalEvent) = {
     this.graph get evt
+  }
+
+
+
+    /** Get node within graph matching a historical event
+    * identified by ID.
+    *
+    * @param id ID of event to match.
+    */
+  def findEvtById(id: String) = {
+    this.graph get HistoricalEvent(id,id)
   }
 }
