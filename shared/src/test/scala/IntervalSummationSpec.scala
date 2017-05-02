@@ -39,10 +39,12 @@ class IntervalSummationSpec extends FlatSpec {
     val g = GraphFactory.fromCsv(csv,labels)
     val epochStr = "urn:cite2:chron:epoch:ptol1"
     val tragStr =  "urn:cite2:chron:event:22a"
+    val intervals =  g.sumInterval(tragStr,epochStr)
+
 
     val epoch = g findEvtById epochStr
     val trag = g findEvtById   tragStr
-    val intervals =  g.sumInterval(tragStr,epochStr)
+
     assert(intervals.size == 1)
     assert(intervals("epoch") == 694)
 

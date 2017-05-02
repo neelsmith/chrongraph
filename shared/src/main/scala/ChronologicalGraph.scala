@@ -58,7 +58,7 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
 
 
     val edge1label = pthEdges(0).label
-    println(s"START FROM  edge 1: ${edge1label.amt} in units of ${edge1label.sys}")
+    //println(s"START FROM  edge 1: ${edge1label.amt} in units of ${edge1label.sys}")
 
 
     sumEdges(pthEdges, intervalMap)
@@ -71,7 +71,7 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
     val relationData = edgeV(0).label
     if (results.keySet.exists(_ == relationData.sys)) {
       val newTotal = results(relationData.sys) + relationData.amt
-      println("Augmenting result for " + relationData.sys + " by " + relationData.amt)
+      //println("Augmenting result for " + relationData.sys + " by " + relationData.amt)
       if (edgeV.size == 1) {
         results + (relationData.sys -> newTotal)
       } else {
@@ -82,7 +82,7 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
 
 
     } else {
-      println("New entry for " + relationData.sys + ", amount " + relationData.amt)
+      //println("New entry for " + relationData.sys + ", amount " + relationData.amt)
       if (edgeV.size == 1) {
         results + (relationData.sys -> relationData.amt)
       } else {

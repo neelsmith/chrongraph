@@ -1,7 +1,8 @@
 name := "Utilities for working with graphs of chronological relations"
 
-crossScalaVersions := Seq("2.12.1")
+//crossScalaVersions := Seq("2.11.8")
 
+crossScalaVersions := Seq("2.12.1")
 lazy val root = project.in(file(".")).
     aggregate(crossedJVM, crossedJS).
     settings(
@@ -20,12 +21,13 @@ lazy val crossed = crossProject.in(file(".")).
       libraryDependencies ++= Seq(
         "org.scala-js" %% "scalajs-stubs" % scalaJSVersion % "provided",
         "org.scalatest" %%% "scalatest" % "3.0.1" % "test",
-        "org.scala-graph" %% "graph-core" % "1.11.5",
-        "org.scala-graph" % "graph-dot_2.12" % "1.11.5"
+        "org.scala-graph" %%% "graph-core" % "1.11.4"
       )
     ).
     jvmSettings(
-
+        libraryDependencies ++= Seq(
+        "org.scala-graph" % "graph-dot_2.12" % "1.11.5"
+      )
     ).
     jsSettings(
       skip in packageJSDependencies := false,
