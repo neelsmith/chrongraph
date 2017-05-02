@@ -12,7 +12,8 @@ import scalax.collection.GraphPredef._
 //import implicits._
 
 
-// Factory for creating Graph structures from text sources.
+/** Factory for creating Graph structures from structured text sources.
+*/
 @JSExport object GraphFactory {
 
   /** Create directed graph from a CSV source with
@@ -20,6 +21,7 @@ import scalax.collection.GraphPredef._
   * a map from identifiers for historical events to human-readable labels.
   *
   * @param s CSV source data.
+  * @param labels Map of ID strings to labels.
   */
   def fromCsv(s: String, labels: Map[String,String] = Map[String,String]()): ChronologicalGraph = {
 
@@ -66,7 +68,6 @@ import scalax.collection.GraphPredef._
             evt
           }
         }
-        //println("CREATED EVENT PAIR " + sourceEvent + ", " + targetEvent)
         val src = columns(0).trim
         val relation = columns(2).trim
         val relationType  = columns(3).trim
