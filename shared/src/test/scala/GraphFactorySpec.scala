@@ -54,5 +54,8 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
     }
   }
 
+  it should "tolerate blank lines in input" in pending
+  it should "make all links bidirectional when importing csv" in pending
+
 
 }

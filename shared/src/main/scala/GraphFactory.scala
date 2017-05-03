@@ -51,21 +51,19 @@ import scalax.collection.GraphPredef._
       } else {
 
         val sourceEvent = {
-            if (labels.size == 0) {
-              HistoricalEvent(columns(1), "label for " + columns(1))
-            } else {
-              val evt = HistoricalEvent(columns(1), labels(columns(1)))
-
-              evt
-            }
+          if (labels.keySet.contains(columns(1))) {
+            val evt = HistoricalEvent(columns(1), labels(columns(1)))
+            evt
+          } else {
+            HistoricalEvent(columns(1), "label for " + columns(1))
+          }
         }
         val targetEvent = {
-          if (labels.size == 0) {
-            HistoricalEvent(columns(4), "label for " + columns(4))
-          } else {
+          if (labels.keySet.contains(columns(4))) {
             val evt = HistoricalEvent(columns(4), labels(columns(4)))
-
             evt
+          } else {
+            HistoricalEvent(columns(4), "label for " + columns(4))
           }
         }
         val src = columns(0).trim

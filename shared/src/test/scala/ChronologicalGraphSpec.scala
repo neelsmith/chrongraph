@@ -40,5 +40,7 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
     }
   }
 
+  it should "take account of direction in summing up intervals" in pending
+  
 
 }

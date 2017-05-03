@@ -34,5 +34,10 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron:event:3,precedes,epoch,urn:cite2:ch
     assert(g.findEvtById("urn:cite2:chron:epoch:pm").toString == "Epoch of the Parian Marble")
   }
 
-  it should "tolerate nodes that do not appear in the label map" in pending
+  it should "tolerate nodes that do not appear in the label map" in {
+      val csv =    """urn:cts:chronepig:chron.pm:1,Unlabeled ID,precedes,epoch,urn:cite2:chron:epoch:pm,1318
+    """
+    val g = GraphFactory.fromCsv(csv,labelMap)
+    assert(g.graph.nodes.size == 2)
+  }
 }
