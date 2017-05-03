@@ -54,8 +54,34 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
     }
   }
 
-  it should "tolerate blank lines in input" in pending
-  it should "make all links bidirectional when importing csv" in pending
+  it should "tolerate blank lines in input" in {
+    val labelMap = Map("urn:cite2:chron:atticrulers:1" -> "Kingship of Cecrops in Athens",
+"urn:cite2:chron:epoch:pm" -> "Epoch of the Parian Marble" )
+    val csv = """
+
+
+urn:cts:chronepig:chron.pm:1,urn:cite2:chron:atticrulers:1,precedes,epoch,urn:cite2:chron:epoch:pm,1318"""
+
+    val edge = GraphFactory.edgeFromCsv(csv, labelMap)
+
+    edge match {
+      case ldi : LDiEdge[HistoricalEvent] =>{
+        assert (ldi._1.toString == "Kingship of Cecrops in Athens")
+        assert (ldi._2.toString == "Epoch of the Parian Marble")
+      }
+      case _ => fail("Should have created a labelled directed edge")
+    }
+  }
+  it should "make all links bidirectional when importing csv" in {
+    val csv = """urn:cts:chronepig:chron.pm:1,urn:cite2:chron:event:2,precedes,epoch,urn:cite2:chron:epoch:pm,1318
+urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,precedes,epoch,urn:cite2:chron:epoch:pm,1310
+urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cite:chron.atticrulers:1,0
+"""
+
+    val g = GraphFactory.fromCsv(csv)
+    println("BIDI LINKS = " + g.graph)
+
+  }
 
 
 }
