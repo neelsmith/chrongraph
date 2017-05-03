@@ -48,7 +48,7 @@ urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cit
     val g = GraphFactory.fromCsv(csv)
     g match {
       case cgr: ChronologicalGraph => {
-        assert(cgr.graph.edges.size == 3)
+        assert(cgr.graph.edges.size == 6)
       }
       case _ => fail("Should have created a labelled directed graph")
     }
@@ -72,16 +72,16 @@ urn:cts:chronepig:chron.pm:1,urn:cite2:chron:atticrulers:1,precedes,epoch,urn:ci
       case _ => fail("Should have created a labelled directed edge")
     }
   }
-  it should "make all links bidirectional when importing csv" in {
+  it should "make all links bidirectional when importing csv" in  pending /*{
     val csv = """urn:cts:chronepig:chron.pm:1,urn:cite2:chron:event:2,precedes,epoch,urn:cite2:chron:epoch:pm,1318
 urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,precedes,epoch,urn:cite2:chron:epoch:pm,1310
 urn:cts:chronepig:chron.pm:2,urn:cite2:chron.event:3,contemporary,eponym,urn:cite:chron.atticrulers:1,0
 """
 
     val g = GraphFactory.fromCsv(csv)
-    println("BIDI LINKS = " + g.graph)
+    //println("BIDI LINKS = " + g.graph)
 
-  }
+  }*/
 
 
 }
