@@ -96,6 +96,7 @@ import scalax.collection.GraphPredef._
     }
   }
 
+/*
   def integerUnits(i: Int, relation: String) : Int = {
     relation match {
       case p if p.contains("precede") => i * -1
@@ -104,6 +105,9 @@ import scalax.collection.GraphPredef._
       case msg: String => throw new Exception("unrecognized relation: " + msg)
     }
   }
+  */
+
+
   /** Create directed edge from a string of csv data.
   *
   * @param s String of CSV data representing a single edge.
@@ -139,7 +143,7 @@ import scalax.collection.GraphPredef._
         val src = columns(0).trim
         val relation = invertRelation(columns(2).trim.toLowerCase)
         val relationType  = columns(3).trim.toLowerCase
-        val unitsDiff = integerUnits(columns(5).trim.toInt, relation)
+        val unitsDiff =  columns(5).trim.toInt // integerUnits(columns(5).trim.toInt, relation)
         val invertedRelation =  SimpleRelation(relation,unitsDiff,relationType,src)
 
        LDiEdge(sourceEvent,targetEvent)(invertedRelation)

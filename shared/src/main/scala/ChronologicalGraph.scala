@@ -40,38 +40,38 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
   }
 
 
-  /**
 
-  def sumInterval( evt1: HistoricalEvent, evt2: HistoricalEvent) = {
-    val pth = (findEvt(evt1) pathTo findEvt(evt2)).get
-    val edgeVector =  pth.edges.toVector.map(_.toOuter)
-    val intervalMap = Map[String,Int]()
-    println("START FROM " + edgeVector(0).label)
-    ChronologicalGraph.sumEdges(edgeVector, intervalMap)
-  }
-  */
-  def sumInterval( evt1: String, evt2: String) = {
-    //sumInterval(findEvtById(evt1), findEvtById(evt2))
-    val pth = (findEvtById(evt1) pathTo findEvtById(evt2)).get
+  def sumInterval( evt1: String, evt2: String) : Map[String,Int] = {
+    val pth = (findEvtById(evt1) shortestPathTo findEvtById(evt2)).get
     val pthEdges =  pth.edges.toVector
+    //println(s"\n\nSum interval from ${evt1} to ${evt2}" )
+    //println("TOTAL EDGES: " + pthEdges.size)
+
     val intervalMap = Map[String,Int]()
-
-
-    val edge1label = pthEdges(0).label
-    //println(s"START FROM  edge 1: ${edge1label.amt} in units of ${edge1label.sys}")
-
-
     sumEdges(pthEdges, intervalMap)
   }
 
 
-  def sumEdges(edgeV: Vector[ChronologicalGraph.this.graph.EdgeT], results : Map[String,Int]): Map[String,Int] = {
-    // : HistoricalEvent = { // : Map [String,Int]= {
 
+  def directedAmount(relation: String, amount: Int) : Int =  {
+    relation match {
+      case p if p.contains("pre") =>  -1 * amount
+      case f if f.contains("follow") => amount
+      case c if c.contains("contemporary") => 0
+      case mystery => throw new Exception("unrecognized relation: " + mystery)
+    }
+  }
+
+  def sumEdges(edgeV: Vector[ChronologicalGraph.this.graph.EdgeT], results : Map[String,Int]): Map[String,Int] = {
     val relationData = edgeV(0).label
+    //println("\n" + edgeV(0)._1 + " -> " + edgeV(0)._2)
+
+    val quant = directedAmount(relationData.rel, relationData.amt)
+    //println("QUANT: " + quant)
     if (results.keySet.exists(_ == relationData.sys)) {
-      val newTotal = results(relationData.sys) + relationData.amt
-      //println("Augmenting result for " + relationData.sys + " by " + relationData.amt)
+      val newTotal = results(relationData.sys) + quant
+      //println("Relation " + relationData.rel + ", augmenting result for " + relationData.sys + " by " + quant)
+      //println("New total: " + newTotal)
       if (edgeV.size == 1) {
         results + (relationData.sys -> newTotal)
       } else {
@@ -82,11 +82,11 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
 
 
     } else {
-      //println("New entry for " + relationData.sys + ", amount " + relationData.amt)
+      //println("New entry for " + relationData.rel + ", " + relationData.sys + ", amount " + quant)
       if (edgeV.size == 1) {
-        results + (relationData.sys -> relationData.amt)
+        results + (relationData.sys -> quant)
       } else {
-        sumEdges(edgeV.drop(1),results + (relationData.sys -> relationData.amt) )
+        sumEdges(edgeV.drop(1),results + (relationData.sys -> quant) )
       }
 
     }
