@@ -69,16 +69,16 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
 
     val quant = directedAmount(relationData.rel, relationData.amt)
     if (verbose) {println("quantity: " + quant)} else {}
-    if (results.keySet.exists(_ == relationData.sys)) {
-      val newTotal = results(relationData.sys) + quant
+    if (results.keySet.exists(_ == relationData.sys.toLowerCase)) {
+      val newTotal = results(relationData.sys.toLowerCase) + quant
       if (verbose) {
         println("Relation " + relationData.rel + ", augmenting result for " + relationData.sys + " by " + quant)
         println("New total: " + newTotal)
       } else {}
       if (edgeV.size == 1) {
-        results + (relationData.sys -> newTotal)
+        results + (relationData.sys.toLowerCase -> newTotal)
       } else {
-        sumEdges(edgeV.drop(1),results + (relationData.sys -> newTotal), verbose )
+        sumEdges(edgeV.drop(1),results + (relationData.sys.toLowerCase -> newTotal), verbose )
       }
 
 
@@ -87,9 +87,9 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
     } else {
       if (verbose) { println("New entry for " + relationData.rel + ", " + relationData.sys + ", amount " + quant)} else {}
       if (edgeV.size == 1) {
-        results + (relationData.sys -> quant)
+        results + (relationData.sys.toLowerCase -> quant)
       } else {
-        sumEdges(edgeV.drop(1),results + (relationData.sys -> quant) , verbose)
+        sumEdges(edgeV.drop(1),results + (relationData.sys.toLowerCase -> quant) , verbose)
       }
 
     }
