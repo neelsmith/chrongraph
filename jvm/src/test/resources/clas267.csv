@@ -1,0 +1,209 @@
+Source,Event 1,Chronological Relation,Units or System,Event 2,Number of Units
+Velleius Paterculus The Roman History 2.84,urn:cite2:chron:jsmv:eponym:1,Contemporary,years,urn:cite2:chron:jsmv:event:1,0
+Velleius Paterculus The Roman History 2.87,urn:cite2:chron:jsmv:event:1,Precedes,years,urn:cite2:chon:jsmv:event:2,1
+Ptolemy Canon of Kings,urn:cite2:chron:jsmv:event:2,Precedes,years,urn:cite2:chron:heraclian:53,128
+Ptolemy Canon of Kings,urn:cite2:chron:heraclian:53,Follows,years,urn:cite2:chron:epoch:ptol2,439
+Ptolemy Almagest,urn:cite2:chron:heraclian:53,Contemporary,years,urn:cite2:chron:pedersen:53,0
+Jerome Chronicle Regnal Era 34 Row 29 (Kinney Translation),urn:cite2:chron:jsmv:event:1,Contemporary,years,urn:cite2:chron:jsmv:event:olympiad:187.4,0
+Jerome Chronicle Regnal Era 34 Row 29 (Kinney Translation),urn:cite2:chron:jsmv:event:olympiad:187.4,Precedes,Olympiads,urn:cite2:chron:jsmv:event:olympiad:218.4,31
+Ptolemy Canon of Kings,urn:cite2:chron:jsmv:event:olympiad:218.4,Contemporary,years,urn:cite2:chron:heraclian:53,0
+Ptolemy Canon of Kings,urn:cite2:chron:heraclian:53,Follows,years,urn:cite2:chron:epoch:ptol2,439
+Ptolemy Almagest,urn:cite2:chron:heraclian:53,Contemporary,years,urn:cite2:chron:pedersen:53,0
+Jerome chronicle manuscript (Bibliothèque de Genève Ms. lat. 49),urn:cite2:chron:jsmv:event:1,Contemporary,years,urn:cite2:chron:jsmv:event:olympiad:187.4,0
+Jerome chronicle manuscript (Bibliothèque de Genève Ms. lat. 49),urn:cite2:chron:jsmv:event:olympiad:187.4,Precedes,Olympiads,urn:cite2:chron:jsmv:event:olympiad:219.2,32
+Ptolemy Canon of Kings,urn:cite2:chron:jsmv:event:olympiad:219.2,Contemporary,years,urn:cite2:chron:heraclian:53,0
+Ptolemy Canon of Kings,urn:cite2:chron:heraclian:53,Follows,years,urn:cite2:chron:epoch:ptol2,439
+Ptolemy Almagest,urn:cite2:chron:heraclian:53,Contemporary,years,urn:cite2:chron:pedersen:53,0
+Ptolemy Almagest,urn:cite2:chron:astron:1,precedes,days,urn:cite2:chron:astron:2,354
+Ptolemy Almagest,urn:cite2:chron:astron:2,precedes,days,urn:cite2:chron:astron:3,177
+Ptolemy Almagest,urn:cite2:chron:astron:3,precedes,days,urn:cite2:chron:astron:4,36387
+Ptolemy Almagest,urn:cite2:chron:astron:4,precedes,days,urn:cite2:chron:astron:5,35875
+Ptolemy Almagest,urn:cite2:chron:astron:5,precedes,days,urn:cite2:chron:astron:6,7426
+Ptolemy Almagest,urn:cite2:chron:astron:6,precedes,days,urn:cite2:chron:astron:7,3805
+Ptolemy Almagest,urn:cite2:chron:astron:7,precedes,days,urn:cite2:chron:astron:9,40053
+Ptolemy Almagest,urn:cite2:chron:astron:9,precedes,days,urn:cite2:chron:astron:10,178
+Ptolemy Almagest,urn:cite2:chron:astron:10,precedes,days,urn:cite2:chron:astron:11,172
+Ptolemy Almagest,urn:cite2:chron:astron:11,precedes,days,urn:cite2:chron:astron:12,31785
+Ptolemy Almagest,urn:cite2:chron:astron:11,precedes,days,urn:cite2:chron:astron:30,65665
+Ptolemy Almagest,urn:cite2:chron:astron:30,precedes,days,urn:cite2:chron:astron:31,173
+Ptolemy Almagest,urn:cite2:chron:astron:31,precedes,days,urn:cite2:chron:astron:32,176
+Ptolemy Almagest,urn:cite2:chron:astron:32,precedes,days,urn:cite2:chron:astron:33,9728
+Ptolemy Almagest,urn:cite2:chron:astron:33,precedes,days,urn:cite2:chron:astron:39,10014
+Ptolemy Almagest,urn:cite2:chron:astron:39,precedes,days,urn:cite2:chron:astron:42,1583
+Ptolemy Almagest,urn:cite2:chron:astron:42,precedes,days,urn:cite2:chron:astron:43,1583
+Ptolemy Almagest,urn:cite2:chron:astron:43,precedes,days,urn:cite2:chron:astron:54,94063
+Ptolemy Almagest,urn:cite2:chron:astron:54,precedes,days,urn:cite2:chron:astron:63,2948
+Ptolemy Almagest,urn:cite2:chron:astron:63,precedes,days,urn:cite2:chron:astron:69,532
+Ptolemy Almagest,urn:cite2:chron:astron:69,precedes,days,urn:cite2:chron:astron:73,502
+Ptolemy Almagest,urn:cite2:chron:astron:1,contemporary,years,Accession of Mardokempad,0
+Ptolemy Canon,Accession of Mardokempad,follows,years,urn:cite2:chron:epoch:ptol1,26
+Ptolemy Almagest,urn:cite2:chron:astron:9,contemporary,years,Accession of Phanostratos (Athenian Archon),0
+Ptolemy Canon,Accession of Phanostratos (Athenian Archon),follows,years,urn:cite2:chron:epoch:ptol1,366
+JeromeRegnalEra 36 r.12,urn:cite2:chron:aramini:evt1,follows,years,urn:cite2:chron:jer_romans:ruler8,2
+PtolemyCanon r.51,urn:cite2:chron:jer_romans:ruler8,precedes,years,urn:cite2:chron:jer_romans:ruler10,16
+PtolemyCanon r.53,urn:cite2:chron:jer_romans:ruler10,follows,years,urn:cite2:chron:epoch:ptol2,420
+PtolemyAlmagest,urn:cite2:chron:epoch:ptol2,contemporary with,years,urn:cite2:chron:aramini:evt2,0 
+Jerome Chronicle,urn:cite2:chron:cowherd:evt1,Precedes,Relative,urn:cite2:chron:cowherd:evt2,0
+Dio History of Rome,urn:cite2:chron:cowherd:evt2,Precedes,Relative,urn:cite2:chron:cowherd:evt4,0
+Jerome Chronicle,urn:cite2:chron:jer_alexandrians:ruler12,Precedes,Years,urn:cite2:chron:cowherd:evt4,7
+Ptolemy Canon of Kings,urn:cite2:chron:jer_alexandrians:ruler12,Follows,Years,urn:cite2:chron:epoch:ptol2,272
+Strabo Geographia,urn:cite2:chron:cowherd:evt5,Precedes,Relative,urn:cite2:chron:cowherd:evt1,0
+Strabo Geographia,urn:cite2:chron:cowherd:evt1,Contemporary,Years,urn:cite2:chron:cowherd:evt6,0
+Ptolemy Canon of Kings,urn:cite2:chron:cowherd:evt6,Follows,Years,urn:cite2:chron:epoch:ptol2,337
+Ptolemy Canon of Kings,urn:cite2:chron:epoch:ptol2,precedes,year,urn:cite2:chron:dickinson:evnt1,178
+Livy Periochae 52,urn:cite2:chron:dickinson:evnt1,follows,relative,urn:cite2:chron:dickinson:evnt2,0
+Livy Periochae 51,urn:cite2:chron:dickinson:evnt2,follows,year,urn:cite2:chron:dickinson:evnt3,700
+Livy Periochae 49,urn:cite2:chron:dickinson:evnt2,follows,year,urn:cite2:chron:dickinson:evnt4,5
+Livy Periochae 49,urn:cite2:chron:dickinson:evnt4,follows,year,urn:cite2:chron:dickinson:evnt5,602
+Ptolemy Canon of Kings,urn:cite2:chron:epoch:ptol2,Follows,years,urn:cite2:chron:epoch:ptol1,424
+Ptolemy's Canon of Kings,urn:cite2:chron:epoch:pto12,precedes,years,urn:cite2:chron:jer_alexandrians:ruler2,77
+Vanderpool,urn:cite2:chron:jer_alexandrians:ruler2,contemporary with,years,urn:cite2:chron:Koronicoin:13,0
+Vanderpool,urn:cite2:chron:Koronicoin:13,precedes,relative,urn:cite2:Koronideposit,0
+Miller,urn:cite2:chron:Koronideposit,contemporary,relative,urn:cite2:chron:ChremonideanWar,0
+Miller,urn:cite2:chron:Koronideposit,follows,relative,urn:cite2:Koroniplate:PR34,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR34,follows,relative,urn:cite2:chron:Menonplate:P28034,0
+Rotroff,urn:cite2:chron:Menonplate:P28034,contemporary,relative,urn:cite2:chron:Tholosplate:P4421,0
+Rotroff,urn:cite2:chron:Tholosplate:P4421,contemporary,relative,urn:cite2:chron:Peristyleplate:P31098,0
+Rotroff,urn:cite2:chron:Tholosplate:P4421,contemporary,relative,urn:cite2:chron:Peristyleplate:P31111,0
+Rotroff,urn:cite2:chron:Peristyleplate:P31098,contemporary,relative,urn:cite2:chron:Peristylecoin:N3564,0
+Rotroff,urn:cite2:chron:Peristyleplate:P31111,contemporary,relative,urn:cite2:chron:Peristylecoin:N3564,0
+Rotroff,urn:cite2:chron:Peristylecoin:N3564,contemporary,relative,urn:cite2:chron:Tholoscoin:N3333,0
+Rotroff,urn:cite2:chron:Tholoscoin:N3333,precedes,relative,urn:cite2:chron:Agoradeposit:F11:2,0
+Agora excavations,urn:cite2:chron:Agoradeposit:F11:2,follow,relative,urn:cite2:chron:Saltcellar:P3509,0
+Rotroff,urn:cite2:chron:Saltcellar:P3509,contemporary,relative,urn:cite2:chron:SaltcellarsVergina,0
+Rotroff,urn:cite2:chron:Saltcellar:P27769,contemporary,relative,urn:cite2:chron:SaltcellarsVergina,0
+Rotroff,urn:cite2:chron:Saltcellar:P19358,contemporary,relative,urn:cite2:chron:SaltcellarsVergina,0
+Rotroff,urn:cite2:chron:Saltcellar:P28137,contemporary,relative,urn:cite2:chron:SaltcellarsVergina,0
+Rotroff,urn:cite2:chron:SaltcellarsVergina,precedes,relative,urn:cite2:chron:TombIIVergina,0
+Agora excavations,urn:cite2:chron:Saltcellar:P27769,precedes,relative,urn:cite2:chron:Agoradeposit:H16:7,0
+Agora excavations,urn:cite2:chron:Saltcellar:P19358,precedes,relative,urn:cite2:chron:Agoradeposit:D16:1,0
+Agora excavations,urn:cite2:chron:Saltcellar:P3509,precedes,relative,urn:cite2:chron:Agoradeposit:F11:2,0
+Agora excavations,urn:cite2:chron:Saltcellar:P28137,precedes,relative,urn:cite2:chron:Agoradeposit:F16:8,0
+Agora excavations,urn:cite2:chron:Saltcellar:P28023,precedes,relative,urn:cite2:chron:Agoradeposit:F16:8,0
+Agora excavations,urn:cite2:chron:Tholoscoin:N3210,contemporary,relative,urn:cite2:chron:Tholoscoin:N3333,0
+Agora excavations,urn:cite2:chron:Tholoscoin:N3211,precedes,relative,urn:cite2:chron:Tholoscoin:N3333,0
+Agora excavations,urn:cite2:chron:Tholoscoin:N3212,contemporary,relative,urn:cite2:chron:Tholoscoin:N3333,0
+Agora excavations,urn:cite2:chron:Tholoscoin:N3231,precedes,relative,urn:cite2:chron:Tholoscoin:N3333,0
+Agora excavations,urn:cite2:chron:Tholoscoin:N3266,precedes,relative,urn:cite2:chron:Tholoscoin:N3333,0
+Agora excavations,urn:cite2:chron:Tholoscoin:N3287,precedes,relative,urn:cite2:chron:Tholoscoin:N3333,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR30,follow,relative,urn:cite2:chron:Menonplate:P28134,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR30,follow,relative,urn:cite2:chron:Menonplate:P28033,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR32,follow,relative,urn:cite2:chron:Menonplate:P28134,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR32,follow,relative,urn:cite2:chron:Menonplate:P28033,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR33,follow,relative,urn:cite2:chron:Menonplate:P28134,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR33,follow,relative,urn:cite2:chron:Menonplate:P28033,0
+Agora excavations,urn:cite2:chron:Koroniplate:PR34,follow,relative,urn:cite2:chron:Menonplate:P28034,0
+Agora excavations,urn:cite2:chron:Menonkantharos:P27992,contemporary,relative,urn:cite2:chron:Koronikantharos:PR16,0
+Agora excavations,urn:cite2:chron:Menonkantharos:P27992,contemporary,relative,urn:cite2:chron:Koronikantharos:PR17,0
+Agora excavations,urn:cite2:chron:Menonkantharos:P27992,contemporary,relative,urn:cite2:chron:Koronikantharos:PR18,0
+PtolemyCanon,urn:cite:chron:olympiadyear.22.3,precedes,hears,urn:cite2:chron:epoch:ptol1,55
+PtolemyCanon,urn:cite:chron:olympiadyear.22.3,precedes,years,urn:cite:chron:olympiadyear.22.4,1
+PtolemyCanon,urn:cite:chron:olympiadyear.22.4,Contemporary,Eponym,urn:cite2:chron:jer_macedonians:ruler4.year46,0
+PtolemyCanon,urn:cite2:chron:jer_macedonians:ruler4,contemporary,foundation,urn:cite2:chron:sic:col:7,0
+PtolemyCanon,urn:cite:chron:olympiadyear.11.2,follows,years,urn:cite2:chron:epoch:ptol1,8
+PtolemyCanon,urn:cite:chron:olympiadyear.12.3,precedes,years,urn:cite2:chron:epoch:ptol1,19
+Ptolemy,urn:cite:chron:olympiadyear.22.4,contemporary,years,Perdiccas 46 years after start of reign,0
+Ptolemy,Perdiccas,contemporary,foundation,urn:cite2:chron:sic:col:7,0
+Ptolemy,Olympiad year 11.2,follows,eponym,urn:cite2:chron:epoch:ptol1,8
+Ptolemy,Olympiad year 12.3,precedes,eponym,urn:cite2:chron:epoch:ptol1,19
+Ptolemy,Olympiad year 22.3,precedes,eponym,urn:cite2:chron:epoch:ptol1,55
+Ptolemy,Naxos,precedes,eponym,urn:cite2:chron:jer_persians:ruler1,203
+PtolemyCanon,urn:cite2:chron:sic:col:1,precedes,epoymn,urn:cite2:chron:jer_persians:ruler1,203
+Ptolemy,Catena,precedes,eponym,urn:cite2:chron:jer_persians:ruler1,207
+PtolemyCanon,urn:cite2:chron:sic:col:3,precedes,eponym,urn:cite2:chron:jer_persians:ruler1,207
+Ptolemy,urn:cite2:chron:sic:col:7,precedes,eponym,urn:cite2:chron:jer_persians:ruler1,161
+PtolemyCanon,urn:cite2:chron:sic:col:7,precedes,eponym,urn:cite2:chron:jer_persians:ruler1,161
+PtolemyCanon,urn:cite2:chron:jer_persians:ruler1,follows,years,urn:cite2:chron:epoch:ptol1,209
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron1,precedes,days,urn:cite2:chron:astron:2,354
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron2,precedes,days,urn:cite2:chron:astron:3,175
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:3,precedes,days,urn:cite2:chron:astron:4,36029
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:4,precedes,days,urn:cite2:chron:astron:5,35879
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:5,precedes,days,urn:cite2:chron:astron:6,7796
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:6,precedes,days,urn:cite2:chron:astron:7,3810
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:7,precedes,days,urn:cite2:chron:astron:9,39689
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:9,precedes,days,urn:cite2:chron:astron:10,176
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:10,precedes,days,urn:cite2:chron:astron:11,177
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:11,precedes,days,urn:cite2:chron:astron:12,66029
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:11,precedes,days,urn:cite2:chron:astron:30,178
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:30,precedes,days,urn:cite2:chron:astron:31,177
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:31,precedes,days,urn:cite2:chron:astron:32,9362
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:32,precedes,days,urn:cite2:chron:astron:33,10217
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:33,precedes,days,urn:cite2:chron:astron:39,1742
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:39,precedes,days,urn:cite2:chron:astron:42,2244
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:42,precedes,days,urn:cite2:chron:astron:43,94961
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:43,precedes,days,urn:cite2:chron:astron:54,2953
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:54,precedes,days,urn:cite2:chron:astron:63,562
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:63,precedes,days,urn:cite2:chron:astron:69,502
+NASA Five Millennium Catalog of Lunar Eclipses,urn:cite2:chron:astron:69,precedes,days,urn:cite2:chron:astron:73,354
+Chronicle (Kinney),urn:cite:chron:StudyofFirstOlymp:A,precedes, event,urn:cite:chron:StudyofFirstOlymp:D,80
+Chronicle (Kinney),urn:cite:chron:StudyofFirstOlymp:D,precedes,event,urn:cite:chron:StudyofFirstOlymp:B,324
+Chronicle (Kinney),urn:cite:chron:StudyofFirstOlymp:B,precedes,event,urn:cite:chron:StudyofFirstOlymp:C,377
+Chronicle (St. Gallen),urn:cite:chron:StudyofFirstOlymp:B,precedes,event,urn:cite:chron:StudyofFirstOlymp:C,378
+Chronicle (Geneva 49),urn:cite:chron:StudyofFirstOlymp:B,precedes,event,urn:cite:chron:StudyofFirstOlymp:C,376
+Chronicle (Kinney),urn:cite:chron:StudyofFirstOlymp:A,precedes,event,urn:cite:chron:StudyofFirstOlymp:B,405
+Library of History,urn:cite:chron:StudyofFirstOlymp:A,precedes,event,urn:cite:chron:StudyofFirstOlymp:D,80
+Library of History,urn:cite:chron:StudyofFirstOlymp:D,precedes,event,urn:cite:chron:StudyofFirstOlymp:B,328
+Library of History,urn:cite:chron:StudyofFirstOlymp:A,precedes,event,urn:cite:chron:StudyofFirstOlymp:B,408
+Library of History,urn:cite:chron:StudyofFirstOlymp:A,precedes,event,urn:cite:chron:StudyofFirstOlymp:C,779
+Ptolemy List of Kings,urn:cite2:chron:jer_persians:ruler7,contemporary,eponym,urn:cite:chron:StudyofFirstOlymp:C,0
+Chronicle (Kinney),urn:cite2:chron:jer_persians:ruler7,precedes,event,urn:cite:chron:StudyofFirstOlymp:C,2
+Chronicle (St. Gallen),urn:cite2:chron:jer_persians:ruler7,precedes,event,urn:cite:chron:StudyofFirstOlymp:C,3
+Chronicle (Geneva 49),urn:cite2:chron:jer_persians:ruler7,precedes,event,urn:cite:chron:StudyofFirstOlymp:C,1
+WhatSource?,urn:cite:chron:StudyofFirstOlymp:D,follows,event,urn:cite:chron:StudyofFirstOlymp:A,80
+Ptolemy Canon of Kings,urn:cite2:chron:jer_persians:ruler7,follows,years,urn:cite2:chron:epoch:ptol1,389
+Thucydides 2.54.5,urn:cite2:chron:myles:evt1,Contemporary,year,urn:cite2:chron:myles:evt2,0
+Thucydides 2.2.1,urn:cite2:chron:myles:evt2,Follows,month,urn:cite2:chron:myles:evt3,2
+Diodorus Siculus 12.37,urn:cite2:chron:archon:72,Contemporary,year,urn:cite2:chron:myles:evt4,0
+Jerome,urn:cite2:chron:myles:evt3,Precedes,year,urn:cite2:chron:jer_athens:ruler1,1
+Jerome,urn:cite2:chron:myles:evt3,Follows,year,urn:cite2:chron:archon:72,1
+Ptolemy Canon of Kings,urn:cite2:chron:canon:1,Follows,year,urn:cite2:chron:canon:2,286
+Ptolemy Canon of Kings,urn:cite2:chron:canon:1,Contemporary,year,urn:cite2:chron:myles:evt2,0
+Suetonius 2.5,urn:cite2:chron:Paganelli:evt0:,Contemporary,Epoch,urn:cite2:chron:Paganelli:evt2:,0
+Jerome regnal era 33 r7,urn:cite2:chron:Paganelli:evt2:,Contemporary,Epoch,urn:cite2:chron:Paganelli:evt1:,0
+Jerome regnal era 33 r7,urn:cite2:chron:Paganelli:evt2:,Precedes,epoch,urn:cite2:chron:Paganelli:evt3:,14
+Jerome regnal era 33 r23,urn:cite2:chron:Paganelli:evt3:,contemporary,epoch,urn:cite2:chron:Paganelli:evt4:,0
+Jerome regnal era 34r23,urn:cite2:chron:Paganelli:evt3:,precedes,epoch,urn:cite2:chron:Paganelli:evt5:,3
+Jerome regnal era 34 r3,urn:cite2:chron:Paganelli:evt5:,contemporary,epoch,urn:cite2:chron:Paganelli:evt6:,0
+Jerome regnal era 34 r3,urn:cite2:chron:Paganelli:evt5:,precedes,years,urn:cite2:chron:Paganelli:evt7:,4
+Jerome regnal era 34 r9,urn:cite2:chron:Paganelli:evt7:,contemporary,epoch,urn:cite2:chron:Paganelli:evt8:,0
+Jerome regnal era 34 r10,urn:cite2:chron:Paganelli:evt10:,follows,Years,urn:cite2:chron:Paganelli:evt7:,56
+Dio 56.30,urn:cite2:chron:Paganelli:evt7:,follows,years,urn:cite2:chron:jsmv:event:1,13
+Suetonius 2.8,urn:cite2:chron:Paganelli:evt9:,Follows,years,urn:cite2:chron:Paganelli:evt7:,12
+Jerome Regnal era 34 r29,urn:cite2:chron:jsmv:event:1,contemporary,epoch,urn:cite2:chron:Paganelli:evt11:,0
+Dio 56.30,urn:cite2:chron:jsmv:event:1,precedes,years,urn:cite2:chron:Paganelli:evt10:,43
+Suetonius 2.8,urn:cite2:chron:jer_romans:ruler2,precedes,urn:cite2:chron:Paganelli:evt10:,44
+Ptolemy Cannon of kings r.45,urn:cite2:chron:jer_romans:ruler2,follows,regnal,urn:cite2:chron:epoch:ptol2,337
+Ptolemy Almagest,urn:cite2:chron:jer_romans:ruler10,contemporary,years,urn:cite2:chron:pedersen:53,0
+Ptolemy Canon of Kings,urn:cite2:chron:jer_romans:ruler2,Precedes,regnal,urn:cite2:chron:jer_romans:ruler10,83
+Jerome Chronicle,urn:cite2:chron:jer_alexandrians:ruler12,Contemporary,Olympiad era/cycle,urn:cite:chron:olympiadyear.182_3,0
+Jerome Chronicle,urn:cite2:chron:jer_romans:ruler1,Contemporary,Olympiad era/cycle,urn:cite:chron:olympiadyear.183_1,0
+Jerome Chronicle,urn:cite2:chron:jer_romans:ruler1,Follows,Olympiad era/cycle,urn:cite2:chron:jer_alexandrians:ruler12,2 
+Jerome Chronicle,urn:cite2:chron:plummer:evt1,Contemporary,Olympiad era/cycle,urn:cite:chron:olympiadyear.184_2,0
+Jerome Chronicle,urn:cite:chron:olympiadyear.184_2,Follows,Olympiad era/cycle,urn:cite2:chron:jer_romans:ruler1,5
+Jerome Chronicle,urn:cite:chron:olympiadyear.184_2,Follows,Olympiad era/cycle,urn:cite2:chron:jer_alexandrians:ruler12,7
+Ptolemy Canon,urn:cite2:chron:jer_alexandrians:ruler12,Follows,Epoch system,urn:cite2:chron:epoch:ptol2,272
+Thucydides,urn:cite2:chron:sic:col:2,Follows,Year,urn:cite2:chron:sic:col:1,1
+Thucydides,urn:cite2:chron:sic:col:3,Follows,Year,urn:cite2:chron:sic:col:2,4
+Thucydides,urn:cite2:chron:sic:col:4,Follows,Year,urn:cite2:chron:sic:col:2,5
+Thucydides,urn:cite2:chron:sic:col:5,Follows,relative,Foundation of Zancle,0
+Thucydides,urn:cite2:chron:sic:col:7,Follows,Year,urn:cite2:chron:sic:col:2,45
+Thucydides,urn:cite2:chron:sic:col:8,Follows,Year,urn:cite2:chron:sic:col:2,70
+Thucydides,urn:cite2:chron:sic:col:9,Follows,relative,urn:cite2:chron:sic:col:8,0
+Thucydides,urn:cite2:chron:sic:col:10,Follows,Year,urn:cite2:chron:sic:col:16,100
+Thucydides,urn:cite2:chron:sic:col:13,Follows,Year,urn:cite2:chron:sic:col:2,135
+Thucydides,urn:cite2:chron:sic:col:14,Follows,Year,urn:cite2:chron:sic:col:2,108
+Jerome,urn:cite2:chron:sic:col:1,Precedes,Year,urn:cite2:chron:canon:1,180
+Ptolemy,urn:cite2:chron:canon:1,Follows,Year,urn:cite2:chron:epoch:ptol1,209
+Jerome,urn:cite2:chron:sic:col:2,Follows,Year,urn:cite2:chron:sic:col:1,5
+Jerome,urn:cite2:chron:sic:col:3,Follows,Year,urn:cite2:chron:sic:col:2,1
+Jerome,urn:cite2:chron:sic:col:4,Follows,Year,urn:cite2:chron:sic:col:3,19
+Jerome,urn:cite2:chron:sic:col:5,Follows,Year,urn:cite2:chron:sic:col:4,29
+Jerome,urn:cite2:chron:sic:col:6,Follows,Year,urn:cite2:chron:sic:col:5,41
+Canon of Kings,urn:cite2:chron:epoch:ptol1,Precedes,Year,urn:cite2:chron:canon:1,209
+PtolemyCanon,urn:cite2:chron:epoch:ptol1,precedes,years,urn:cite2:chron:jer_persians:ruler4,262
+JeromeChron,urn:cite2:chron:jer_persians:ruler4,precedes,years,urn:cite2:chron:olympiadyear.75_1,6
+Herod9.3,urn:cite2:chron:olympiadyear.75_1,precedes,months,urn:cite2:chron:werab:evt1,10
+Diod11.27,urn:cite2:chron:werab:evt1,contemporary,years,urn:cite2:chron:archon:30,0
+Diod12.35,urn:cite2:chron:archon:30,precedes,years,urn:cite2:chron:archon:15,45
+Diod12.36,urn:cite2:chron:archon:15,precedes,years,urn:cite2:chron:archon:72,2
+PtolemyCanon,urn:cite2:chron:archon:72,contemporary,year,urn:cite2:chron:werab:evt2,0

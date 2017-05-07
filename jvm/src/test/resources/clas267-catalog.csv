@@ -1,0 +1,250 @@
+Urn,Label
+urn:cts:chron:jsmv:1.1:2.84,Velleius Paterculus The Roman History 2.84
+urn:cts:chron:jsmv:1.1:2.87,Velleius Paterculus The Roman History 2.87
+urn:cts:chron:jsmv:2.1,Ptolemy Almagest
+urn.cts:chron:jsmv:2.2,Ptolemy Canon of Kings
+urn:cts:chron:jsmv:3.1:34.29,Jerome Chronicle Regnal Era 34 Row 29 (Kinney Translation)
+urn:cts:chron:jsmv:3.2:34.29,Jerome chronicle (manuscript Bibliothèque de Genève Ms. lat. 49)
+urn:cite2:chron:jsmv:event:1,Battle of Actium
+urn:cite2:chron:jsmv:event:2,Cleopatra death
+urn:cite2:chron:jsmv:event:olympiad:187.4,187 olympiad year 4
+urn:cite2:chron:jsmv:event:olympiad:218.4,218 olympiad year 4
+urn:cite2:chron:jsmv:event:olympiad:219.2,219 olympiad year 2
+urn:cite2:chron:jsmv:eponym:1,consulship of Messala
+urn:cite2:chron:pedersen:53,Occultation of [beta] Scorpii by the Moon
+urn:cite2:chron:heraclian:53,End of Nervas rule beginning of Trajan
+urn:cite2:chron:epoch:ptol2,Epoch of Philip in Ptolemy Canon of Kings
+urn:cite2:chron:aramini:evt1,eruption of vesuvius
+urn:cite2:chron:aramini:evt2,occultation of Scorpii
+urn:cite2:chron:jer_romans:ruler10,accession of Nerva
+urn:cite2:chron:jer_romans:ruler8,accession of Titus
+urn:cite2:chron:astron:1,total lunar eclipse: 721BC
+urn:cite2:chron:astron:2,partial lunar eclipse: 720BC
+urn:cite2:chron:astron:3,partial lunar eclipse: 720BC
+urn:cite2:chron:astron:4,partial lunar eclipse: 621BC
+urn:cite2:chron:astron:5,partial lunar eclipse: 523BC
+urn:cite2:chron:astron:6,partial lunar eclipse: 502BC
+urn:cite2:chron:astron:7,partial lunar eclipse: 491BC
+urn:cite2:chron:astron:9,partial lunar eclipse: 383BC
+urn:cite2:chron:astron:10,partial lunar eclipse: 382BC
+urn:cite2:chron:astron:11,total lunar eclipse: 382BC
+urn:cite2:chron:astron:11,partial lunar eclipse: 201BC
+urn:cite2:chron:astron:30,total lunar eclipse: 200BC
+urn:cite2:chron:astron:31,total lunar eclipse: 200BC
+urn:cite2:chron:astron:32,partial lunar eclipse: 174Bc
+urn:cite2:chron:astron:33,total lunar eclipse: 146BC
+urn:cite2:chron:astron:39,partial lunar eclipse: 141BC
+urn:cite2:chron:astron:42,total lunar eclipse: 135BC
+urn:cite2:chron:astron:43,partial lunar eclipse: 125AD
+urn:cite2:chron:astron:54,total lunar eclipse: 133AD
+urn:cite2:chron:astron:63,partial lunar eclipse: 134AD
+urn:cite2:chron:astron:69,partial lunar eclipse: 136AD
+Urn,Event
+urn:cite2:chron:cowherd:evt1,Library of Alexandria Exists
+urn:cite2:chron:cowherd:evt2,Library of Alexandria destroyed
+urn:cite2:chron:cowherd:evt4,Death of Julius Caesar
+urn:cite2:chron:cowherd:evt5,Tiberius Aids Sardis
+urn:cite2:chron:cowherd:evt6,Tiberius in Power
+urn:cite2:chron:epoch:ptol2,Epoch of Philip in Ptolemy's Canon of Kings
+urn:cite2:chron:dickinson:evnt1,Ptolemy VI Philometor's rule ends
+urn:cite2:chron:dickinson:evnt2,Scipio destroys city of Carthage
+urn:cite2:chron:dickinson:evnt3,Foundation of Carthage
+urn:cite2:chron:dickinson:evnt4,Third Punic War begins
+urn:cite2:chron:dickinson:evnt5,Foundation of Rome
+urn:cite2:chron:epoch:ptol1,Epoch of Nabonassaar in Ptolemy's Canon of Kings
+urn:cite2:chron:epoch:ptol2,Epoch of Philip in Ptolemy's Canon of Kings
+urn:cite2:chron:epoch:pm,Epoch of the Parian Marble
+urn:cite2:chron:epoch:pto12,Epoch of Philip
+urn:cite2:chron:jer_alexandrians:ruler2,Ptolemy Philadelphos
+urn:cite2:chron:Koronicoin:13,Coin 13 in Koroni Deposit
+urn:cite2:Koronideposit,Koroni Deposit
+urn:cite2:chron:ChremonideanWar,Chremonidean War
+urn:cite2:Koroniplate:PR34,Plate PR34 in Koroni Deposit
+urn:cite2:chron:Menonplate:P28034,Plate P28034 in Menon's cistern deposit
+urn:cite2:chron:Menonplate:P28034,Plate P4421 in Tholos well deposit
+urn:cite2:chron:Peristyleplate:P31098,Plate P31098 in peristyle deposit
+urn:cite2:chron:Peristyleplate:P31111,Plate P31111 in peristyle deposit
+urn:cite2:chron:Peristylecoin:N3564,Coin N3564 in peristyle deposit
+urn:cite2:chron:Tholoscoin:N3333,Coin N3333 in Tholos well deposit
+urn:cite2:chron:Agoradeposit:F11:2,Deposit F 11:2 in Athenian Agora
+urn:cite2:chron:saltcellar:P3509,Salt cellar P3509 in Athenian Agora
+urn:cite2:chron:SaltcellarsVergina,Saltcellars from Vergina
+urn:cite2:chron:TombIIVergina,Tomb II in Vergina
+urn:cite2:chron:Saltcellar:P27769,Saltcellar P27769 in Athenian Agora
+urn:cite2:chron:Agoradeposit:H16:7,Deposit H16:7 in Athenian Agora
+urn:cite2:chron:Saltcellar:P19358,Saltcellar P19358 in Athenian Agora
+urn:cite2:chron:Agoradeposit:D16:1,Deposit D16:1 in Athenian Agora
+urn:cite2:chron:Agoradeposit:F11:2,Deposit F11:2 in Athenian Agora
+urn:cite2:chron:Saltcellar:P28137,Saltcellar P28137in Athenian Agora
+urn:cite2:chron:Agoradeposit:F16:8,Deposit F16:8 in Athenian Agora
+urn:cite2:chron:Saltcellar:P28023,Saltcellar P28023 in Athenian Agora
+urn:cite2:chron:Tholoscoin:N3333, Coin N3333 in Tholos well deposit
+urn:cite2:chron:Tholoscoin:N3210,Coin N3210 in Tholos well deposit
+urn:cite2:chron:Tholoscoin:N3211,Coin N3211 in Tholos well deposit
+urn:cite2:chron:Tholoscoin:N3212,Coin N3212 in Tholos well deposit
+urn:cite2:chron:Tholoscoin:N3231,Coin N3231 in Tholos well deposit
+urn:cite2:chron:Tholoscoin:N3266,Coin N3266 in Tholos well deposit
+urn:cite2:chron:Tholoscoin:N3287,Coin N3287 in Tholos well deposit
+urn:cite2:chron:Koroniplate:PR30,Plate PR30 in Koroni Deposit
+urn:cite2:chron:Menonplate:P28134,Plate P28134 in Menon’s cistern deposit
+urn:cite2:chron:Menonplate:P28033,Plate 28033 in Menon’s cistern deposit
+urn:cite2:chron:Koroniplate:PR32,Plate PR 32 in Koroni Deposit
+urn:cite2:chron:Koroniplate:PR33,Plate PR 33 in Koroni Deposit
+urn:cite2:chron:Koroniplate:PR34,Plate PR 34 in Koroni Deposit
+urn:cite2:chron:Menonkantharos:P27992,Kantharos P27992 in Menon’s cistern deposit
+urn:cite2:chron:Koronikantharos:PR16,Kantharos PR16 in Koroni
+urn:cite2:chron:Koronikantharos:PR17,Kantharos PR17 in Koroni
+urn:cite2:chron:Koronikantharos:PR18,Kantharos PR18 in Koroni
+urn:cite:chron:StudyofFirstOlymp:A,Fall of Troy,
+urn:cite:chron:StudyofFirstOlymp:B,First Olympiad
+urn:cite:chron:StudyofFirstOlymp:C,End of Peloponnesian War
+urn:cite:chron:StudyofFirstOlymp:D,First year of reign of Eurystheus
+urn:cite2:chron:myles:evt1,Outbreak of Plague
+urn:cite2:chron:myles:evt2,Outbreak of Peloponnesian War
+urn:cite2:chron:myles:evt3,Archonship of Pythodorus
+urn:cite2:chron:myles:evt4,Eighty-seventh Olympiad that in which Sophron of Ambracia won the stadion
+urn:cite2:chron:jer_athens:ruler1,Archonship of Euthydimos
+urn:cite2:chron:canon:1,Persian King Artaxerxes the First
+urn:cite2:chron:canon:2,The first Persian King Nabonassaros
+Urn,Event
+urn:cite2:chron:Paganelli:evt0:,Birth of Augustus
+urn:cite2:chron:Paganelli:evt1:,Year 2 of Olympiad 179
+urn:cite2:chron:Paganelli:evt2:,Consulship of Cicero
+urn:cite2:chron:Paganelli:evt3:,Rule of Cleopatra
+urn:cite2:chron:Paganelli:evt4:,Year 2 of Olympiad 182
+urn:cite2:chron:Paganelli:evt5:,Rule of Caesar
+urn:cite2:chron:Paganelli:evt6:,Year 1 of Olympiad 183
+urn:cite2:chron:Paganelli:evt7:,Death of Caesar
+urn:cite2:chron:Paganelli:evt8:,year 2 of Olympiad 184
+urn:cite2:chron:Paganelli:evt9:,Rule of Marc Antony
+urn:cite2:chron:Paganelli:evt10:,Death of Augustus
+urn:cite2:chron:Paganelli:evt11:,Year 4 of Olympiad 187
+urn:cite2:chron:jer_romans:ruler2,Rule of Augustus
+urn:cite2:chron:Paganelli:evt14:,rule of nerva
+urn:cite2:chron:Paganelli:evt15:,Occultation Of Scorpii
+urn:cite2:chron:plummer:evt1, Death of Julius Caesar
+urn:cite2:chron:jer_alexandrians:ruler12, Accession of Cleopatra
+urn:cite2:chron:jer_romans:ruler1, Accession of Julius Caesar
+urn:cite:chron:olympiadyear.182_3, Olympiad 182 year 3
+urn:cite:chron:olympiadyear.183_1, Olympiad 183 year 1
+urn:cite:chron:olympiadyear.184_2, Olympiad 184 year 2
+urn:cite2:chron:astroruler:1,Nabonasar
+urn:cite2:chron:astroruler:2,Nadi
+urn:cite2:chron:astroruler:3,Chinzer and of Por
+urn:cite2:chron:astroruler:4,Ilulai
+urn:cite2:chron:astroruler:5,Mardokempad
+urn:cite2:chron:jer_persians:ruler4,Arkaian
+urn:cite2:chron:astroruler:6,First interregnum
+urn:cite2:chron:jer_persians:ruler2,Belib
+urn:cite2:chron:jer_persians:ruler7,Aparanad
+urn:cite2:chron:astroruler:7,Regebel
+urn:cite2:chron:astroruler:8,Mesessemordak
+urn:cite2:chron:astroruler:9,Second interregnum
+urn:cite2:chron:astroruler:10,Asaridin
+urn:cite2:chron:jer_persians:ruler1,Saosdouchin
+urn:cite2:chron:jer_persians:ruler6,Kiniladan
+urn:cite2:chron:astroruler:11,Nabopolasar
+urn:cite2:chron:astroruler:12,Nabokolasar
+urn:cite2:chron:astroruler:13,Illoaroudam
+urn:cite2:chron:jer_persians:ruler9,Nerigasolassar
+urn:cite2:chron:astroruler:14,Nabonadi
+urn:cite2:chron:jer_persians:ruler1,Kyros
+urn:cite2:chron:jer_persians:ruler2,Kambyses
+urn:cite2:chron:jer_persians:ruler3,Dareios the First
+urn:cite2:chron:jer_persians:ruler4,Xerxes
+urn:cite2:chron:jer_persians:ruler5,Artaxerxes the First
+urn:cite2:chron:jer_persians:ruler6,Dareios the Second
+urn:cite2:chron:jer_persians:ruler7,Artaxerxes the Second
+urn:cite2:chron:jer_persians:ruler8,Ochos
+urn:cite2:chron:jer_persians:ruler9,Arogos
+urn:cite2:chron:jer_persians:ruler10,Dareios the Third
+urn:cite2:chron:jer_macedonians:ruler19,Alexandros the Macedonian
+urn:cite2:chron:jer_macedonians:ruler20,Philip who was after Alexandros
+urn:cite2:chron:jer_macedonians:ruler21,Alexandros the Second
+urn:cite2:chron:jer_alexandrians:ruler1,Ptolemy son of Lagos
+urn:cite2:chron:jer_alexandrians:ruler2,Ptolemy Philadelphos
+urn:cite2:chron:jer_alexandrians:ruler3,Euergetes the First
+urn:cite2:chron:jer_alexandrians:ruler4,Philopator
+urn:cite2:chron:jer_alexandrians:ruler5,Epiphanes
+urn:cite2:chron:jer_alexandrians:ruler6,Philometor
+urn:cite2:chron:jer_alexandrians:ruler7,Euergetes the Second
+urn:cite2:chron:jer_alexandrians:ruler8,Soter
+urn:cite2:chron:jer_alexandrians:ruler11,The New Dionysos
+urn:cite2:chron:jer_alexandrians:ruler12,Cleopatra
+urn:cite2:chron:jer_romans:ruler2,Augustus
+urn:cite2:chron:jer_romans:ruler3,Tiberius
+urn:cite2:chron:jer_romans:ruler4,Gaius
+urn:cite2:chron:jer_romans:ruler5,Claudius
+urn:cite2:chron:jer_romans:ruler6,Nero
+urn:cite2:chron:jer_romans:ruler7,Vespasian
+urn:cite2:chron:jer_romans:ruler8,Titus
+urn:cite2:chron:jer_romans:ruler9,Domitian
+urn:cite2:chron:jer_romans:ruler10,Nerva
+urn:cite2:chron:jer_romans:ruler11,Trajan
+urn:cite2:chron:jer_romans:ruler12,Hadrian
+urn:cite2:chron:jer_romans:ruler13,Aelius Antoninus
+urn:cite2:chron:jer_romans:ruler14,Marcus
+urn:cite2:chron:jer_romans:ruler17,Severus and Antoninus
+urn:cite2:chron:jer_romans:ruler20,The young Antoninus
+urn:cite2:chron:jer_romans:ruler21,Alexander and Mammaia
+urn:cite2:chron:jer_romans:ruler22,Maximinus
+urn:cite2:chron:jer_romans:ruler23,Gordian
+urn:cite2:chron:jer_romans:ruler24,Philip
+urn:cite2:chron:jer_romans:ruler25,Decius
+urn:cite2:chron:jer_romans:ruler26,Gallus and Volusianus
+urn:cite2:chron:jer_romans:ruler27,Valerian and Gallienus
+urn:cite2:chron:jer_romans:ruler28,Claudius
+urn:cite2:chron:jer_romans:ruler29,Aurelian
+urn:cite2:chron:jer_romans:ruler31,Probus
+urn:cite2:chron:jer_romans:ruler32,Carus and Carinus
+urn:cite2:chron:jer_romans:ruler33,Diocletian and Constantius
+urn:cite2:chron:jer_romans:ruler34,Constantine
+urn:cite2:chron:jer_romans:ruler35,Constantine
+urn:cite2:chron:jer_romans:ruler36,And the sons
+urn:cite2:chron:jer_romans:ruler37,Julian
+urn:cite2:chron:jer_romans:ruler38,Jovian
+urn:cite2:chron:jer_romans:ruler39,Valentinian
+urn:cite2:chron:jer_romans:ruler40,Valens and Gratian in Rome
+urn:cite2:chron:jer_romans:ruler41,Theodosius in Byzantium
+urn:cite2:chron:jer_romans:ruler42,Arcadius and Honorius
+urn:cite2:chron:jer_romans:ruler43,Honorius and Theodosius
+urn:cite2:chron:jer_romans:ruler44,The Little Theodosius
+urn:cite2:chron:jer_romans:ruler45,Theodosius and Valentian in Rome
+urn:cite2:chron:jer_romans:ruler46,Valentian and Marcian in Byzantium
+urn:cite2:chron:jer_romans:ruler47,Marcian
+urn:cite2:chron:jer_romans:ruler48,The great Leon
+urn:cite2:chron:jer_romans:ruler49,Leon and Anthemios in Rome
+urn:cite2:chron:jer_romans:ruler50,The Little Leon
+urn:cite2:chron:jer_romans:ruler51,Zenon and his son
+urn:cite2:chron:jer_romans:ruler52,Anastasius
+urn:cite2:chron:jer_romans:ruler53,Justin
+urn:cite2:chron:jer_romans:ruler54,Justinian
+urn:cite2:chron:jer_romans:ruler55,Justin
+urn:cite2:chron:jer_romans:ruler56,Tiberius  Constantine
+urn:cite2:chron:jer_romans:ruler57,Maurice
+urn:cite2:chron:jer_romans:ruler58,Phokas
+urn:cite2:chron:canon:1,Reign of Cyrus
+urn:cite2:chron:sic:col:1,Foundation of Naxos
+urn:cite2:chron:sic:col:10,Foundation of Selenus
+urn:cite2:chron:sic:col:11,Foundation of Himera
+urn:cite2:chron:sic:col:12,Foundation of Camarina
+urn:cite2:chron:sic:col:13,Foundation of Acragas
+urn:cite2:chron:sic:col:2,Foundation of Syracuse
+urn:cite2:chron:sic:col:3,Foundation of Catana
+urn:cite2:chron:sic:col:4,Foundation of Leontini
+urn:cite2:chron:sic:col:14,Foundation of Chersonesus
+urn:cite2:chron:sic:col:5,Foundation of Thapsus
+urn:cite2:chron:sic:col:15,Foundation of Gela
+urn:cite2:chron:sic:col:6,Foundation of Selenus
+urn:cite2:chron:sic:col:7,Foundation of Gela
+urn:cite2:chron:sic:col:8,Foundation of Acrae
+urn:cite2:chron:sic:col:9,Foundation of Casmenae
+urn:cite2:chron:sic:col:16,Foundation of Megara Hyblaea
+urn:cite2:chron:epoch:ptol1,Epoch of Nabonassar in Ptolemy Cannon of Kings
+urn:cite2:chron:jer_persians:ruler4,Accession of Xerxes
+urn:cite2:chron:werab:evt1,Mardonius occupying Athens
+urn:cite2:chron:werab:evt2,Time of Summer Solstice in 432 BCE
+urn:cite2:chron:olympiadyear.75_1,Olympiad 75 year 1
+urn:cite2:chron:archon:30,Archonship of Xanthippus
+urn:cite2:chron:archon:15,Archonship of Crates
+urn:cite2:chron:archon:72,Archonship of Apseudes

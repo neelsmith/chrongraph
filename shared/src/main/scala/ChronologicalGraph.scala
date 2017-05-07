@@ -41,52 +41,55 @@ object MyImplicit extends LEdgeImplicits[SimpleRelation]; import MyImplicit._
 
 
 
-  def sumInterval( evt1: String, evt2: String) : Map[String,Int] = {
+  def sumInterval( evt1: String, evt2: String,verbose: Boolean = false) : Map[String,Int] = {
     val pth = (findEvtById(evt1) shortestPathTo findEvtById(evt2)).get
     val pthEdges =  pth.edges.toVector
-    //println(s"\n\nSum interval from ${evt1} to ${evt2}" )
-    //println("TOTAL EDGES: " + pthEdges.size)
-
+    if (verbose) {
+      println(s"\n\nSum interval from ${evt1} to ${evt2}" )
+      println("TOTAL CONNECTIONS: " + pthEdges.size)
+  } else {}
     val intervalMap = Map[String,Int]()
-    sumEdges(pthEdges, intervalMap)
+    sumEdges(pthEdges, intervalMap,verbose)
   }
 
 
 
   def directedAmount(relation: String, amount: Int) : Int =  {
     relation match {
-      case p if p.contains("pre") =>  -1 * amount
-      case f if f.contains("follow") => amount
-      case c if c.contains("contemporary") => 0
+      case p if p.toLowerCase.contains("pre") =>  -1 * amount
+      case f if f.toLowerCase.contains("follow") => amount
+      case c if c.toLowerCase.contains("contemporary") => 0
       case mystery => throw new Exception("unrecognized relation: " + mystery)
     }
   }
 
-  def sumEdges(edgeV: Vector[ChronologicalGraph.this.graph.EdgeT], results : Map[String,Int]): Map[String,Int] = {
+  def sumEdges(edgeV: Vector[ChronologicalGraph.this.graph.EdgeT], results : Map[String,Int], verbose: Boolean = false): Map[String,Int] = {
     val relationData = edgeV(0).label
-    //println("\n" + edgeV(0)._1 + " -> " + edgeV(0)._2)
+    if (verbose) {println("\n" + edgeV(0)._1 + " -> " + edgeV(0)._2)} else {}
 
     val quant = directedAmount(relationData.rel, relationData.amt)
-    //println("QUANT: " + quant)
+    if (verbose) {println("quantity: " + quant)} else {}
     if (results.keySet.exists(_ == relationData.sys)) {
       val newTotal = results(relationData.sys) + quant
-      //println("Relation " + relationData.rel + ", augmenting result for " + relationData.sys + " by " + quant)
-      //println("New total: " + newTotal)
+      if (verbose) {
+        println("Relation " + relationData.rel + ", augmenting result for " + relationData.sys + " by " + quant)
+        println("New total: " + newTotal)
+      } else {}
       if (edgeV.size == 1) {
         results + (relationData.sys -> newTotal)
       } else {
-        sumEdges(edgeV.drop(1),results + (relationData.sys -> newTotal) )
+        sumEdges(edgeV.drop(1),results + (relationData.sys -> newTotal), verbose )
       }
 
 
 
 
     } else {
-      //println("New entry for " + relationData.rel + ", " + relationData.sys + ", amount " + quant)
+      if (verbose) { println("New entry for " + relationData.rel + ", " + relationData.sys + ", amount " + quant)} else {}
       if (edgeV.size == 1) {
         results + (relationData.sys -> quant)
       } else {
-        sumEdges(edgeV.drop(1),results + (relationData.sys -> quant) )
+        sumEdges(edgeV.drop(1),results + (relationData.sys -> quant) , verbose)
       }
 
     }

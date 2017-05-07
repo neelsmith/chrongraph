@@ -5,8 +5,8 @@ import scala.io.Source
 
 object GraphSource {
 
-  def apply(fName: String) : ChronologicalGraph = {
+  def apply(fName: String, labels: Map[String,String] = Map[String,String]()) : ChronologicalGraph = {
     val csv = Source.fromFile(fName).getLines.toVector.drop(1).mkString("\n")
-    GraphFactory.fromCsv(csv)
+    GraphFactory.fromCsv(csv, labels)
   }
 }
